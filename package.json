@@ -1,0 +1,28 @@
+{
+	"name": "hng_backend_0",
+	"version": "1.0.0",
+	"description": "A simple api that exposes /me endpoint",
+	"keywords": [
+		"Javascript",
+		"NodeJS",
+		"Coding",
+		"Backend"
+	],
+	"license": "ISC",
+	"author": "Divv.dev",
+	"type": "module",
+	"main": "server.js",
+	"scripts": {
+		"dev": "nodemon server.js",
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"axios": "^1.12.2",
+		"dotenv": "^17.2.3",
+		"express": "^5.1.0",
+		"express-rate-limit": "^8.1.0"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.10"
+	}
+}
